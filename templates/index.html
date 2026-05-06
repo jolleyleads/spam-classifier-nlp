@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Classifier NLP</title>
+</head>
+<body>
+    <h1>Spam Classifier NLP</h1>
+
+    <form method="POST">
+        <textarea name="message" rows="8" cols="60" placeholder="Type message here..."></textarea>
+        <br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
