@@ -9,6 +9,55 @@ This project demonstrates an end-to-end NLP workflow including text preprocessin
 ---
 
 ## Live Demo
+## Make.com Gmail Workflow Integration
+
+This NLP classifier was integrated into a Make.com workflow to classify Gmail email content through the deployed Flask API.
+
+### Live Workflow Architecture
+
+```text
+Gmail Email Input
+→ Make.com HTTP Request
+→ Deployed Flask NLP API on Render
+→ JSON Prediction Response
+→ Router Filter
+→ Spam or Ham Route
+```
+
+### API Endpoint
+
+```text
+POST /predict
+```
+
+### Example Request
+
+```json
+{
+  "message": "WIN free money now click here"
+}
+```
+
+### Example Response
+
+```json
+{
+  "prediction": "spam"
+}
+```
+
+### What This Integration Demonstrates
+
+* Deployed machine learning model exposed as a live API
+* Flask backend with a prediction endpoint
+* NLP text classification using TF-IDF and logistic regression
+* Make.com workflow automation
+* Gmail email input integration
+* HTTP API request/response handling
+* Router-based spam/ham business logic
+* Real-world AI automation pipeline
+
+**This shows the model is not only a standalone web app, but also a usable backend API that can power automated business workflows.**
 
 https://spam-classifier-nlp.onrender.com/
 
