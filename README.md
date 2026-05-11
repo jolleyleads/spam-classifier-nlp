@@ -119,3 +119,29 @@ spam-classifier-nlp/
 ├── requirements.txt
 ├── templates/
 └── README.md
+
+---
+
+# Workflow Screenshots
+
+## 1. Gmail Unread Email
+![Unread Gmail](screenshots/gmail-unread.png)
+
+## 2. Full Make.com Workflow
+![Workflow](screenshots/workflow.png)
+
+## 3. Gmail Extraction Output
+![Gmail Output](screenshots/gmail-output.png)
+
+## 4. NLP API Call
+![API Call](screenshots/api-call.png)
+
+## 5. Router Logic
+![Router](screenshots/router-logic.png)
+
+## 6. Spam Label Action
+![Spam Label](screenshots/spam-label.png)
+
+## 7. Draft Reply Automation
+![Draft Reply](screenshots/draft-reply.png)
+
