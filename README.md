@@ -1,12 +1,9 @@
-# Spam Classifier NLP
+﻿# Spam Classifier NLP
 
 ## Overview
+Spam Classifier NLP is a deployed machine learning application that predicts whether a message is spam or not spam.
 
-Spam Classifier NLP is a machine learning web application that classifies text messages as spam or not spam using natural language processing and machine learning.
-
-This project demonstrates an end-to-end NLP workflow including text preprocessing, TF-IDF vectorization, classification modeling, Flask integration, and deployment.
-
----
+This project demonstrates natural language processing, text classification, model deployment, and API-ready machine learning engineering.
 
 ## Live Demo
 ## Make.com Gmail Workflow Integration
@@ -61,36 +58,22 @@ POST /predict
 
 https://spam-classifier-nlp.onrender.com/
 
----
-
-## What This Project Shows
-
-- Natural Language Processing (NLP)
-- Text Classification
-- TF-IDF Vectorization
-- Logistic Regression Modeling
-- Flask Web App Development
-- Machine Learning Inference
-- Deployment-Ready AI Applications
-
----
-
 ## Tech Stack
-
 - Python
 - Flask
 - Scikit-learn
 - Pandas
 - NumPy
-- TF-IDF Vectorizer
-- Logistic Regression
-- HTML/CSS
 - Render
-- GitHub
 
----
+## Skills Demonstrated
+- NLP classification
+- Flask deployment
+- Machine learning inference
+- API-ready architecture
 
-## Business Use Case
+## Resume Bullet
+Built and deployed an NLP spam classification web application using Python and Flask to classify text messages in real time.
 
 This application demonstrates how machine learning can automatically identify spam messages for:
 
